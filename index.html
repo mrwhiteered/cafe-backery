@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Кафе-Пекарня</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="cafe__header">
+	<div class="cafe__container cafe__container_header">
+	<nav class="cafe__nav">
+		<ul class="cafe__header_list">
+			<li class="cafe__header_item">
+				<a href="#" class="cafe__header_link">Главная</a>
+			</li>
+			<li class="cafe__header_item">
+				<a href="#" class="cafe__header_link">Портфолио</a>
+			</li>
+			<li class="cafe__header_item item__active">
+				<a href="#" class="cafe__header_link link__active">Кафе-Пекарня “ПОД КЛЮЧ”</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+</header>
+<main class="cafe__main">
+	<section class="cafe__section_top">
+	<div class="cafe__container">
+	<h1 class="cafe__title">
+		Кафе-Пекарня «ПОД КЛЮЧ»
+	</h1>
+	<div class="cafe__under_top">
+		<p class="cafe__text">Дизайн проект и поставка технологического оборудования для Кафе-Пекарни «ПОД КЛЮЧ»</p>
+		<div class="cafe__slider_controller">
+			<button  onclick="prevSlide()" class="controller controller__left">
+				<svg class="controller__left_img" width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4.5" y="-4.5" width="48" height="47" rx="23.5" transform="matrix(-1 0 0 1 57 9)" fill="white"/>
+<path d="M30 23L25 28L30 33" stroke="#454545" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>
+			</button>
+			<button onclick="nextSlide()" class="controller controller__right">
+				<svg class="controller__right_img" width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4.5" y="4.5" width="48" height="47" rx="23.5" fill="white"/>
+<path d="M27 23L32 28L27 33" stroke="#454545" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>
+			</button>
+		</div>
+	</div>
+	</div>
+	</section>
+	<section class="cafe__slider cafe__container">
+		<div class="cafe__container slider">
+			<ul class="cafe__slider_list">
+				<li class="cafe__slider_item">
+					<img class="slider__img" src="Img/content (1).png">
+				</li>
+				<li class="cafe__slider_item">
+					<img class="slider__img" src="Img/content (2).png">
+				</li>
+				<li class="cafe__slider_item">
+					<img class="slider__img" src="Img/content (3).png">
+				</li>
+				<li class="cafe__slider_item">
+					<img class="slider__img" src="Img/content (4).png">
+				</li>
+			</ul>
+			
+		</div>
+		<div class="cafe__slider_bottom">
+				<p class="slider__bottom_text">Понравился проект? <br/> Оставьте заявку на индивидуальный расчет для вас</p>
+				<button class="slider__bottom_button">Получить КП</button>
+			</div>
+	</section>
+</main>
+
+<script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>
