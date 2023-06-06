@@ -64,6 +64,7 @@ color: #94C017;
 }
 .cafe__header_link.link__active{
 	text-decoration: none;
+	color: #787878;
 }
 
 /*main*/
